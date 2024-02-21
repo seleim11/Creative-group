@@ -30,8 +30,8 @@ body{
 .container::before{
     content: "";
     position: absolute;
-    height: 650px;
-    width: 650px;
+    height: 950px;
+    width: 950px;
     background: conic-gradient(
         transparent,transparent,transparent,#d400d4
     );
@@ -41,8 +41,8 @@ body{
 .container::after{
     content: "";
     position: absolute;
-    height: 650px;
-    width: 650px;
+    height: 850px;
+    width: 850px;
     background: conic-gradient(
         transparent,transparent,transparent,#00cfff
     );
@@ -104,5 +104,8 @@ input:valid ~ label{
      pointer-events: none;
      transform: .3s;
 
+
+}
+.center{
 
 }
