@@ -16,8 +16,8 @@ body{
 }
 .container{
     position: relative;
-    width: 350px;
-    height: 500px;
+    width: 450px;
+    height: 600px;
     background: rgba(0,0,0.75);
     border-radius: 20px;
     display: flex;
