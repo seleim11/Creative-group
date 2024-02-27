@@ -1,20 +1,24 @@
 body {
     font-family: Arial, sans-serif;
     margin: 0;
+    align-items: center;
+    justify-content: center;
     padding: 0;
-    background-image: url(wallpaperflare.jpg);
-    background-size: cover;
+    min-height: 100vh;
+    /*background: url();*/
+
 }
 
 header {
-    background: transparent;
-    backdrop-filter: blur(10px);
-    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
-    
-    color: #fff;
-    padding: 0px;
-    width: 100%;
-    float: right;
+  background: transparent;
+  backdrop-filter: blur(10px);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  position: fixed;
+  z-index: 999;
+  color: #fff;
+  padding: 0px;
+  width: 100%;
+  float: right;
 
 }
 
@@ -23,7 +27,7 @@ header h1 {
 }
 
 header nav {
-    float: right;
+  float: left;
 }
 
 header nav button {
@@ -33,7 +37,7 @@ header nav button {
     padding: 0;
     margin: 0;
 }
-/*
+
 header nav button svg {
     width: 24px;
     height: 24px;
@@ -41,12 +45,11 @@ header nav button svg {
     transition: fill 0.2s ease-in-out;
     background-image: image-set;
 }
-*/
-/*
+
 header nav button:hover svg {
     fill: #ddd;
 }
-*/
+
 main {
     padding: 20px;
 }
@@ -212,4 +215,38 @@ button {
     background: linear-gradient(32deg, #03a9f4, #f441a5, #ffeb3b, #03a9f4);
   }
 
+  .wrapper{ 
+    margin-top: 100px;
+    background-color: #03a9f4;
+    width: 95%;
+    background: transparent;
+    border: 2px solid rgb(255, 255,255, .2);
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 10px rgb(0, 0 , 0 ,.2);
+    height: 100% ;
+    border-radius: 10px;
+    margin: 100px auto;
+  
+  }
+  .t{
+    font-size: xx-large;
+    color: white;
+    padding-left: 500;
+  }
+
+
+  video{
+
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    min-height: 90%;
+    min-width: 100%;
+    z-index: -1;
+}
+.m{
+  font-size: xx-large;
+  color: white;
+  padding-top: 50px;
+}
   
