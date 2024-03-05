@@ -94,7 +94,7 @@ main {
 
 img{
     height: 50px;
-    float: left;
+    /*float: left;*/
 }
 button {
     text-decoration: none;
@@ -154,7 +154,11 @@ button {
 
 
 
-
+img{
+  height: 300px;
+  width: 300px;
+  padding-top: 230px;
+}
 
 
 .hh {
