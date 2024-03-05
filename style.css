@@ -92,10 +92,10 @@ main {
 
 }
 
-/*img{
+img{
     height: 50px;
-    /*float: left;*/
-}*/
+    float: left;
+}
 button {
     text-decoration: none;
     position: relative;
