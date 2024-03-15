@@ -11,7 +11,7 @@ body{
     /*background: #0c1022;*/
     justify-content: center;
     align-items: center;
-    background-image: url('servers.jpg');
+    background-image: url('v.jpg');
     min-height: 100vh;
     background-position: center;
     background-size: cover;
@@ -39,7 +39,7 @@ body{
     height: 950px;
     width: 950px;
     background: conic-gradient(
-        transparent,transparent,transparent,#d400d4
+        transparent,transparent,transparent,#e0250c
     );
     animation: animate 4s linear infinite;
     animation-delay: -2s;
@@ -50,7 +50,7 @@ body{
     height: 850px;
     width: 850px;
     background: conic-gradient(
-        transparent,transparent,transparent,#00ccff
+        transparent,transparent,transparent,#0886b3
     );
     animation: animate 4s linear infinite;
 }
