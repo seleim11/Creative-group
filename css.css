@@ -20,10 +20,10 @@ body{
 .container{
 
     position: relative;
-    width: 550px;
+    width: 600px;
     background: transparent;
     backdrop-filter: blur(30px);
-    height: 700px;
+    height: 750px;
     /*background: rgba(0,0,0.75);*/
     border-radius: 20px;
     display: flex;
@@ -36,8 +36,8 @@ body{
 .container::before{
     content: "";
     position: absolute;
-    height: 950px;
-    width: 950px;
+    height: 1000px;
+    width: 1000px;
     background: conic-gradient(
         transparent,transparent,transparent,#e0250c
     );
@@ -47,10 +47,10 @@ body{
 .container::after{
     content: "";
     position: absolute;
-    height: 850px;
-    width: 850px;
+    height: 900px;
+    width: 900px;
     background: conic-gradient(
-        transparent,transparent,transparent,#0886b3
+        transparent,transparent,transparent,#0e6382
     );
     animation: animate 4s linear infinite;
 }
