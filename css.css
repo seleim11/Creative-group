@@ -6,13 +6,12 @@
     box-sizing: border-box;
 }
 
-
 body{
     display: flex;
     /*background: #0c1022;*/
     justify-content: center;
     align-items: center;
-    background-image: url('ramadan.jpg');
+    background-image: url('wallpaper.jpg');
     min-height: 100vh;
     background-position: center;
     background-size: cover;
@@ -40,7 +39,7 @@ body{
     height: 1000px;
     width: 1000px;
     background: conic-gradient(
-        transparent,transparent,transparent,#e0250c
+        transparent,transparent,transparent,#107819
     );
     animation: animate 4s linear infinite;
     animation-delay: -2s;
